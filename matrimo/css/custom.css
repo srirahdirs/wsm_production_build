@@ -1,0 +1,1007 @@
+.error-message {
+    color: red !important;
+    margin: 1px;
+}
+
+.p-toast-detail {
+    margin-top: 0px !important;
+    margin-left: 10px !important;
+}
+
+.p-toast-message-content img,
+svg {
+    margin-top: 3px;
+}
+
+.p-toast-message-success {
+    background: #00ff7d !important
+}
+
+.p-toast-message-error {
+    background: #e91b06e3 !important;
+    color: #fff;
+}
+
+.p-toast {
+    top: 56px !important;
+    right: -92px !important;
+}
+
+.hom-top {
+    position: relative !important;
+}
+
+em {
+    color: #e5026b;
+    font-weight: 700;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+.em_register {
+    color: #e5026b;
+    font-weight: 700;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: smaller;
+}
+
+.city_dropdown input {
+    height: 26px !important;
+}
+
+/* slider css */
+/* Specific to the Date of Birth container */
+.dob-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Specific to the Date of Birth label */
+.dob-container .lb {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Specific to the Calendar inside the Date of Birth form group */
+.dob-container .dob-calendar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* Aligns to the left */
+}
+
+
+
+/* Adjust the input field within the Calendar */
+.dob-container .p-inputtext {
+    padding: 8px;
+    /* Padding for the input field */
+    width: 100%;
+    border-radius: 4px;
+    /* Smooth rounded corners */
+    box-shadow: none;
+    /* Remove extra shadow if unnecessary */
+}
+
+/* Ensure it's responsive on smaller screens */
+@media (max-width: 768px) {
+    .dob-container .p-calendar {
+        max-width: 100%;
+    }
+}
+
+.p-datepicker:not(.p-datepicker-inline) {
+    background: #ffffff;
+    border: 0 none;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.p-datepicker {
+    padding: 0.5rem;
+    background: #ffffff;
+    color: #4b5563;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+
+.plans-ban,
+.ban-inn {
+    margin-top: 0;
+}
+
+.p-dialog {
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    max-height: 90%;
+    transform: scale(1);
+    position: relative;
+}
+
+.p-dialog-title {
+    font-weight: 600;
+}
+
+.p-dialog .p-dialog-content:last-of-type {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.p-dialog .p-dialog-content {
+    background: #ffffff;
+    color: #4b5563;
+    padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.p-dialog-content {
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.p-dialog-draggable .p-dialog-header {
+    cursor: move;
+}
+
+.p-dialog .p-dialog-header {
+    border-bottom: 0 none;
+    background: #ffffff;
+    color: #374151;
+    padding: 1.5rem;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.p-dialog-header {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    text-align: center;
+
+}
+
+.p-dialog .p-dialog-content:last-of-type {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.p-dialog .p-dialog-content {
+    background: #ffffff;
+    color: #4b5563;
+    padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.p-dialog-content {
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.p-component,
+.p-component * {
+    box-sizing: border-box;
+}
+
+/* Container styling */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* File upload container */
+.p-fileupload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Choose button styling */
+.p-fileupload-buttonbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.p-fileupload-choose {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.p-fileupload-choose:hover {
+    background-color: #0056b3;
+}
+
+.p-fileupload-choose input[type="file"] {
+    display: none;
+}
+
+.p-fileupload-choose svg {
+    margin-right: 10px;
+}
+
+/* File upload content */
+.p-fileupload-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* File row styling */
+.p-fileupload-row {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.p-fileupload-file-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.p-fileupload-filename {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.p-fileupload-file-badge {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.p-fileupload-file-badge.p-badge-warning {
+    background-color: #ffc107;
+    color: #856404;
+}
+
+/* Actions (delete button) */
+.p-fileupload-row .p-button {
+    /* background: transparent;
+    border: none;
+    color: #dc3545;
+    font-size: 18px;
+    cursor: pointer; */
+    display: none;
+}
+
+.p-fileupload-row .p-button:hover {
+    color: #c82333;
+}
+
+/* Uploaded images section */
+h6 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p-fileupload-content img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.p-fileupload-content img:hover {
+    transform: scale(1.1);
+}
+
+[data-pc-section="details"] {
+    display: none;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* If you want to center the text as well */
+}
+
+[data-pc-section="details"] {
+    display: none;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* If you want to center the text as well */
+}
+
+[data-pc-section="actions"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* If you want to center the text as well */
+}
+
+.img-wrapper img {
+    width: 302px;
+}
+
+.db-profile .img img {
+    width: 302px;
+}
+
+.dummy_image .img-wrapper img {
+    width: 202px;
+}
+
+.dummy_image .db-profile .img img {
+    width: 260px;
+}
+
+.p-dialog-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    /* Dark transparent background */
+    backdrop-filter: blur(10px);
+    /* Apply blur effect */
+    z-index: 1101;
+    /* Make sure it’s above the page content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal container */
+.custom-dialog {
+    width: 50vw;
+    max-width: 600px;
+    /* Optional: Max width to prevent it from becoming too large */
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1200;
+    /* Ensure the modal content stays above the overlay */
+}
+
+/* Dialog header */
+.p-dialog-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Close button style */
+.p-dialog-header .p-dialog-header-close {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.p-dialog-header .p-dialog-header-close:hover {
+    color: #333;
+}
+
+.p-dialog-header-close-icon {
+    color: #c82333;
+}
+
+/* File upload button */
+.p-fileupload-buttonbar .p-button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.p-fileupload-buttonbar .p-button:hover {
+    background-color: #0056b3;
+}
+
+.p-fileupload-choose .p-button-label {
+    color: #fff;
+}
+
+/* Modal content styling */
+.p-fileupload-content {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Resizable handle */
+.p-resizable-handle {
+    z-index: 90;
+}
+
+.ban-search ul li input[type="submit"] {
+    padding: 5px 25px;
+}
+
+.pro-info-status .stat-1 {
+    margin-right: 5px;
+}
+
+.profi-ban {
+    margin-top: 0;
+    padding: 0px;
+}
+
+.all-pro-head {
+    margin-top: 0;
+}
+
+.disabled-link {
+    pointer-events: none;
+    /* Disable the link */
+    color: grey;
+    /* Change the color to indicate it's disabled */
+    cursor: not-allowed;
+    /* Show "not allowed" cursor */
+}
+
+.disabled-link:hover::after {
+    content: attr(title);
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    font-size: 12px;
+    z-index: 10;
+    top: -25px;
+    /* Adjust as needed */
+    left: 0;
+    /* Adjust as needed */
+}
+
+/* Tooltip container */
+.cta-rou-line.disabled-link {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.cta-rou-line.disabled-link::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Show tooltip on hover */
+.cta-rou-line.disabled-link:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.blurred-section {
+    filter: blur(5px);
+    pointer-events: none;
+    /* Prevent interaction with the blurred content */
+}
+
+.purchase-plan-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.purchase-plan-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* profile details page css */
+.all-pro-box {
+    position: relative;
+}
+
+.all-pro-box .pro-img,
+.all-pro-box .pro-detail {
+    /* pointer-events: none;
+    filter: blur(3px); */
+    /* Apply blur to the image and detail sections */
+}
+
+
+.subscription-message {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 800;
+    /* Slightly bold for emphasis */
+}
+
+.blurred-div .pro-img,
+.blurred-div .pro-detail,
+.blurred-div .links,
+.blurred-div .enq-sav {
+    pointer-events: none;
+    filter: blur(3px);
+}
+
+.blurred-action {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.buy-now-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buy-now-btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buy-now-btn:hover {
+    background-color: #e64a19;
+}
+
+.no-border {
+    border: none !important;
+}
+
+/* Modal styles */
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    width: fit-content;
+}
+
+.modal-dialog {
+    margin: auto;
+}
+
+
+
+.modal-content button {
+    margin: 20px 0;
+    cursor: pointer;
+    color: white;
+    background-color: #0040FF;
+    border-radius: 8px;
+}
+
+
+.modal-content button:hover {
+    transition: all 0.5s ease 0s;
+    background-color: #8D236A;
+}
+
+
+
+.otp-tit {
+    font-weight: 500;
+    color: black;
+}
+
+
+.otp-container {
+    /* display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* Space between input boxes */
+    margin-bottom: 20px;
+}
+
+.modal-content .otp-input {
+    width: 40px;
+    /* Width of each input box */
+    height: 40px;
+    /* Height of each input box */
+    text-align: center;
+    /* Center the text inside */
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+.modal-content .otp-input:focus {
+    outline: none;
+    border-color: blue;
+    /* Change border color when focused */
+}
+
+.modal-content a {
+    font-size: small;
+}
+
+.modal-content a:disabled {
+    cursor: not-allowed;
+}
+
+.modal-content a:not(:disabled) {
+    cursor: pointer;
+}
+
+.otp-resend-message {
+    width: 340px;
+    display: inline;
+}
+
+.modal-content .otp-resend-message span {
+    color: gray;
+}
+
+.modal-content .otp-resend-message a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination-container button {
+    padding: 8px 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pagination-container button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.pagination-container span {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.fol-sett-box h5 {
+    color: #333;
+}
+
+.fol-sett-box p {
+    color: #4b5563;
+}
+
+.user_interests_ol li {
+    color: #333;
+    margin: 0;
+}
+
+
+.notification-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 5px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.sett-rad-left h5 {
+    color: #333;
+}
+
+.sett-rad-left p {
+    color: #374151;
+}
+
+
+/* user_interests_ol */
+.user_interests .blurred-section_user_interests {
+    position: relative;
+}
+
+.user_interests .blurred-content_user_interests {
+    filter: blur(2px);
+    pointer-events: none;
+}
+
+.user_interests .premium-overlay_user_interests {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.user_interests .premium-overlay_user_interests p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.user_interests .premium-overlay_user_interests a.btn-primary {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+.user_interests .notification-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .modal-dialog {
+        width: auto;
+        /* Ensure it takes up 90% of the screen width */
+        max-width: 100%;
+        /* Prevent it from exceeding screen width */
+
+    }
+
+    .modal-content {
+        width: fit-content;
+        /* Allow content to take full available width */
+        padding: 15px;
+        /* Add padding for better spacing */
+    }
+
+    .otp-container {
+        gap: 0px;
+        /* Space between input boxes */
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .seninter {
+        padding: 10px;
+    }
+
+    .modal-content .otp-input {
+        width: 30px;
+        /* Width of each input box */
+        height: 40px;
+        /* Height of each input box */
+        text-align: center;
+        /* Center the text inside */
+        font-size: 14px;
+    }
+
+    .p-fileupload .p-fileupload-buttonbar .p-button {
+        margin: 40px 50px;
+        max-width: fit-content;
+    }
+
+    .modal {
+        padding: 2px;
+    }
+}
+
+/* For tablets and larger devices */
+@media (min-width: 769px) {
+    .modal-dialog {
+        width: 50%;
+        /* Limit width for larger screens */
+        max-width: 1000px;
+        /* Prevent it from exceeding 1000px */
+    }
+
+    .modal-content {
+        width: fit-content;
+        /* Allow content to fit based on content size */
+    }
+
+    .password-reset-modal {
+        width: 50%;
+        /* Limit width for larger screens */
+        max-width: 1000px;
+        /* Prevent it from exceeding 1000px */
+    }
+
+    .p-fileupload-buttonbar .p-button {
+        margin: 20px 20px;
+    }
+}
+
+/* Backdrop - creates the blur effect */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    z-index: 1040;
+    /* Make sure the backdrop sits below the modal */
+    filter: blur(10px);
+    /* Apply blur effect to the background */
+}
+
+/* For modal content */
+.modal-dialog {
+    z-index: 1050;
+    /* Modal content sits above the backdrop */
+}
+
+/* When modal is open */
+.modal.fade.show {
+    display: block;
+    /* Ensure modal is shown when it has the 'show' class */
+    z-index: 1060;
+    /* Higher than the backdrop */
+}
+
+.p-fileupload-buttonbar .p-button {
+    margin: 50px 200px;
+}
+
+.p-fileupload-buttonbar {
+    /* border:1px solid #5b5959; */
+    box-shadow: 01px 1px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 426px) {
+    .plans-main .container .row ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plans-main .container .row ul li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .img-wrapper i {
+        font-size: 18px;
+    }
+
+    .img-wrapper button {
+        font-size: 10px;
+    }
+}
+
+.progress-bar {
+    background-color: #4caf50;
+    height: 20px;
+    border-radius: 5px;
+    transition: width 0.5s;
+
+}
+
+.db-plan-canc p {
+    color: #101010;
+    padding-bottom: 10px;
+}
+
+
+
+/* Styles for the reset password modal */
+.password-reset .password-reset-modal {
+    padding: 20px;
+    width: 100%;
+    /* Full width for modal content */
+}
+
+.password-reset .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Align inputs properly */
+    margin-bottom: 15px;
+    /* Add some space between form fields */
+}
+
+.password-reset .lb {
+    flex-basis: 30%;
+    /* Label takes 30% width */
+    text-align: right;
+    padding-right: 10px;
+    /* Add some space between label and input */
+}
+
+.password-reset .form-control {
+    flex-basis: 65%;
+    /* Input takes 65% width */
+}
+
+.password-reset .error-message {
+    color: red;
+    font-size: 0.875rem;
+    /* Smaller font for error message */
+    margin-left: 30%;
+    /* Align error message below input */
+}
+
+.password-reset .loader {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.password-reset .loader .dot {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Increase modal size */
+.password-reset .modal-xl {
+    max-width: 80%;
+    /* Increase modal width */
+}
