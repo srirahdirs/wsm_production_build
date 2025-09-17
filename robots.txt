@@ -28,5 +28,5 @@ Crawl-delay: 1
 Sitemap: https://weddingsoulmates.com/sitemap.xml
 
 # Additional sitemaps for better indexing
-Sitemap: https://weddingsoulmates.com/sitemap-profiles.xml
-Sitemap: https://weddingsoulmates.com/sitemap-communities.xml
+# Sitemap: https://weddingsoulmates.com/sitemap-profiles.xml
+# Sitemap: https://weddingsoulmates.com/sitemap-communities.xml
